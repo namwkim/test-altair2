@@ -11,4 +11,7 @@ c = (
    .encode(x="a", y="b", size="c", color="c", tooltip=["a", "b", "c"])
 )
 
+# Set the title of the Streamlit app
+st.title("Interactive Altair Chart in Streamlit")
+
 st.altair_chart(c)
